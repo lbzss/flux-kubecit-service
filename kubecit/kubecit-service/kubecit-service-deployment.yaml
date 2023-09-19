@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: kubecit-service
-          image: z627062293/kubecit-service:v1.0.0
+          image: z627062293/kubecit-service:1eceacee1ec66da0206b940ee0afc67870105a8c
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
