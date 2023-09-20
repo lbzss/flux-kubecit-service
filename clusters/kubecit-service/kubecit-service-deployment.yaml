@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: kubecit-service
-          image: z627062293/kubecit-service:v1.0.2 #{"$imagepolicy": "flux-system:kubecit-service"}
+          image: z627062293/kubecit-service:1695177790-fc71190 #{"$imagepolicy": "flux-system:kubecit-service"}
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
